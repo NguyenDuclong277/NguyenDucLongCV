@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Đức Long - CV</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Nguyễn Đức Long - CV</h1>    
+</header>
+
+<nav>
+    <a href="#home">GIỚI THIỆU</a>
+    <a href="#skills">KỸ NĂNG</a>
+    <a href="#hobbies">SỞ THÍCH</a>
+    <a href="#education">HỌC VẤN</a>
+    <a href="#goals">MỤC TIÊU</a>
+    <a href="#contact">LIÊN HỆ</a>
+    <button onclick="toggleLanguage()">VN / ENG</button>
+</nav>
+
+<div class="container">
+    <section id="home">
+        <h2>Giới thiệu</h2>
+        <img src="anh123.jpg" alt="Avatar" class="avatar">
+        <p><i class="fa-solid fa-user"></i> Họ và tên: Nguyễn Đức Long</p>
+        <p><i class="fa-solid fa-id-card"></i> MSSV: 23050079</p>
+        <p><i class="fa-solid fa-envelope"></i> Email: 23050079@student.bdu.edu.vn</p>
+        <p><i class="fa-solid fa-phone"></i> SDT: 0357602169</p>
+        <p><i class="fa-solid fa-map-marker-alt"></i> Địa chỉ: TP. Thủ Dầu Một, Bình Dương</p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="skills">
+        <h2>Kỹ năng</h2>
+        <div class="skill">
+            <p>Biết và sử dụng được máy tính</p>
+            <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+        </div>
+        <div class="skill">
+            <p>Thành thạo Microsoft Office</p>
+            <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+        </div>
+        <div class="skill">
+            <p>Biết lập trình C#, Python, C++</p>
+            <div class="progress-bar"><div class="progress" style="width: 50%;">50%</div></div>
+        </div>
+        <div class="skill">
+            <p>Hiểu về cấu trúc dữ liệu</p>
+            <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section id="hobbies" class="hobbies">
+        <h2>Sở Thích</h2>
+        <div class="hobby-list">
+            <div class="hobby-item"><i class="fa-solid fa-gamepad"></i><p>Chơi Game</p></div>
+            <div class="hobby-item"><i class="fa-solid fa-music"></i><p>Nghe Nhạc</p></div>
+            <div class="hobby-item"><i class="fa-solid fa-futbol"></i><p>Thể Thao</p></div>
+            <div class="hobby-item"><i class="fa-solid fa-plane"></i><p>Du Lịch</p></div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section id="education">
+        <h2>📚 Học Vấn</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2020 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Trường THPT Lê Thị Pha</h3>
+                    <p>Tốt nghiệp THPT với xếp loại khá</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Hiện tại</div>
+                <div class="timeline-content">
+                    <h3>Đại học Bình Dương</h3>
+                    <p>Ngành: Công Nghệ Thông Tin</p>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <h2>Trường Đại học Bình Dương trên bản đồ</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6502560000536!2d106.66144937451972!3d10.989749555223753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d1be2495c19d%3A0xafd977d94466ffc2!2zxJDhuqFpIGjhu41jIELDrG5oIETGsMahbmc!5e0!3m2!1svi!2s!4v1743456683921!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section id="goals">
+        <h2>Mục Tiêu</h2>
+        <p>Hoàn thiện các kỹ năng còn thiếu và học hỏi nhiều hơn.</p>
+        <p>Tìm được môi trường làm việc chuyên nghiệp, tận dụng hết kỹ năng.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section id="contact" class="contact-form">
+        <h2>Liên Hệ</h2>
+        <form action="mailto:23050079@student.bdu.edu.vn" method="post">
+            <input type="text" name="name" placeholder="Tên của bạn" required>
+            <input type="email" name="email" placeholder="Email của bạn" required>
+            <textarea name="message" placeholder="Tin nhắn của bạn" rows="4"></textarea>
+            <button type="submit">Gửi Email</button>
+        </form>
+    </section>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
